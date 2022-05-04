@@ -1,0 +1,59 @@
+fieldLayouts:
+  74a874ad-dcc6-44ee-9000-ddaf8a2ed9b1:
+    tabs:
+      -
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 70e0fbbb-4040-4377-a28d-1223afaf9efe
+            warning: null
+            width: 100
+          -
+            fieldUid: 6709d9b5-059d-48e4-8ad0-45a90a0e6fde # Summary Text
+            instructions: 'A short one or two sentence summary of the article.'
+            label: 'Article Summary'
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: fd67ccc9-782a-40b5-a173-2a1d6050d230
+            warning: null
+            width: 100
+          -
+            fieldUid: 2dc0d83b-6459-4069-9074-7edb613481bd # Rich Text
+            instructions: null
+            label: 'Article Copy'
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: a7a9936b-ec06-4cdb-87ea-0c2f1857dc38
+            warning: null
+            width: 100
+        name: Content
+        uid: 96414ada-e24d-4fff-a537-0df833254203
+handle: default
+hasTitleField: true
+name: Default
+section: 6edd5272-4923-4598-a6e7-16bf044d3a28 # Market News
+sortOrder: 1
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

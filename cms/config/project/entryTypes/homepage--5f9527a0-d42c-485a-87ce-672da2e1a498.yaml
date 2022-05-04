@@ -1,0 +1,49 @@
+fieldLayouts:
+  e9421b4f-76b6-4a50-a257-4c1d9e1ad875:
+    tabs:
+      -
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 7eaa2f1d-a5a1-4a9c-8107-6b1f4e6aa0a7
+            warning: null
+            width: 100
+          -
+            fieldUid: 2dc0d83b-6459-4069-9074-7edb613481bd # Rich Text
+            instructions: 'Add in any rich text content, images, etc. that you want to appear on the homepage.'
+            label: 'Homepage Content'
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 855ab234-00bd-444e-b149-96d8a73b280b
+            warning: null
+            width: 100
+        name: 'Homepage Content'
+        uid: 3a26db3b-2b5c-4b02-9fee-3d677580edb7
+handle: homepage
+hasTitleField: false
+name: Homepage
+section: a6e1dd05-69b8-449d-b2e5-3b91a55f39b5 # Homepage
+sortOrder: 1
+titleFormat: '{section.name|raw}'
+titleTranslationKeyFormat: null
+titleTranslationMethod: site
